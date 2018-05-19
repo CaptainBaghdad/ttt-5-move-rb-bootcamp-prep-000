@@ -8,4 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Please select a position"
 pos = input_to_index(gets.strip)
-move(board,pos,x_o)
+move(display_board(board),pos,x_o)
